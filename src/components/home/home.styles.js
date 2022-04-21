@@ -10,6 +10,7 @@ export const Banners = styled.div`
     justify-content: center;
     justify-items: center;
     height: 400px;
+    width: 100%;
     text-align: center;
     background-color: #cbf1e4;
     padding: 1rem;
@@ -22,5 +23,13 @@ export const Categories = styled.div`
 `;
 
 export const Products = styled.div`
+    display: grid;
+    justify-content: stretch;
     width: 100%;
+`;
+
+export const ViewAllProducts = styled.div`
+    cursor: pointer;
+    text-align: left;
+    padding: 2rem;
 `;
